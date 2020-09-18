@@ -1,0 +1,36 @@
+ .sidebarOption {
+     display: flex;
+     align-items: center;
+
+     cursor: pointer;
+     
+ }
+
+ .sidebarOption:hover {
+    /* Mau chung cho nhieu nhieu component khac nhau
+    trong truong hop dung component nay dung cho project khac
+    phai bo sung mau cho bien chung var hoac tach rieng set mau truc tiep */
+    background-color: #e8f5fe;
+    color: var(--twitter-color); 
+    border-radius: 20px;
+    transition: color 500ms ease-out;
+ }
+
+ .sidebarOption > .MuiSvgIcon-root {
+     padding: 20px;
+ }
+
+ .sidebarOption > p {
+    font-weight: 800;
+    font-size: 18px;
+    margin-right: 20px;
+ }
+
+ .sidebarOption--active {
+    color: var(--twitter-color); 
+ }
+
+ .sidebarOption_link {
+    color: #282828;
+    text-decoration: none;
+ }
